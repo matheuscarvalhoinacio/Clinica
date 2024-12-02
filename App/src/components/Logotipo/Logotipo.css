@@ -1,0 +1,9 @@
+#LogoTipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:391px ;
+    height:150px ;
+    background-image: url("../../img/fundo.png");
+    background-repeat: no-repeat;
+}

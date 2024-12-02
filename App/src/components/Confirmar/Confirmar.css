@@ -1,0 +1,82 @@
+.Conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-confirmar-remocao {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.cabecalho {
+    margin-bottom: 16px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.conteudo {
+    font-size: 1.5rem;
+    color: #000000;
+    
+}
+
+.conteudo .destaque-remocao {
+    color: #73060F;
+    font-weight: bold;
+}
+
+.cartao-agendamento-remocao {
+    display: flex;
+    flex-direction: column;
+    border: 5px solid #000000;
+    border-radius: 8px;
+    background-color: #F4F4F4;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 1);
+    text-align: center;
+}
+
+.data-agendamento-remocao {
+    text-align: center;
+    margin-bottom: 12px;
+    border: 1px solid #000000;
+    background-color: #ffffff;
+    padding: 16px;
+    margin: 1rem;
+}
+
+.data {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #73060F;
+}
+
+.hora {
+    font-size: 1.5rem;
+    color: #000000;
+}
+
+
+
+.button {
+    background-color: #73060F;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 13rem;
+    margin: 1rem;
+}
+
+.button:hover {
+    background-color: #73060F;
+}

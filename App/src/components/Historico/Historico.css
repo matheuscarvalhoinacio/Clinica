@@ -1,0 +1,69 @@
+.Card-conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.Card-historico {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+.card-conteudo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+    height: 5rem;
+    background: #73060F;
+    border-radius: 20px;
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+.icons-historico {
+    background-color: #fff;
+    width: 5rem;
+    height: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
+
+.icons-historico img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: contain;
+}
+
+.data-historico {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.card-conteudo h1 {
+    font-size: 12px;
+    margin: 0;
+}
+
+.card-conteudo section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-conteudo h1 {
+    font-size: 14px;
+}
+.status{
+    padding: 10px;
+}

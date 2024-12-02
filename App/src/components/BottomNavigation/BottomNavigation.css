@@ -1,0 +1,25 @@
+.bottom-navigation {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #e0e0e0;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    align-items: center;
+    margin: 20px;
+    border-radius: 20px;
+  }
+  
+  #nav svg {
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  #nav svg:hover {
+    transform: scale(1.2); /
+  }
+  

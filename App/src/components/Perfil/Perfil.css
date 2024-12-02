@@ -1,0 +1,78 @@
+.perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: auto;
+}
+
+.perfil h1 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.perfil-foto {
+    background: #bfbfbf;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.perfil-foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.perfil form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.perfil input[type="text"] {
+    width: 100%;
+    max-width: 300px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #73060F;
+    font-size: 1rem;
+    color: #333;
+}
+
+.perfil input[type="text"]:focus {
+    border-color: #a10712;
+    outline: none;
+}
+
+.perfil input[type="submit"] {
+    width: 150px;
+    padding: 10px;
+    background-color: #73060F;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.perfil input[type="submit"]:hover {
+    background-color: #a10712;
+}
+
+.perfil input::placeholder {
+    color: #999;
+}

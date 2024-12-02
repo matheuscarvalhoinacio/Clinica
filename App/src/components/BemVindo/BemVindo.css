@@ -1,0 +1,62 @@
+.bemVindo-container {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bemVindo-logo {
+    font-size: 48px;
+    font-weight: bold;
+    color: #800000;
+    margin: 0;
+  }
+  
+  .bemVindo-subtitle {
+    font-size: 24px;
+    color: #800000;
+    margin-bottom: 30px;
+  }
+  .Una{
+    width: 8rem;
+    height: auto;
+  }
+  .bemVindo-image {
+    width: 20rem;
+    height: auto;
+    margin-bottom: 30px;
+  }
+  
+  .bemVindo-registerButton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #800000;
+    color: #fff;
+    border: none;
+    width: 15rem;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 16px;
+    margin: 10px 0;
+    cursor: pointer;
+  }
+  .bemVindo-loginButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #d3d3d3;
+    color: #000;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 15rem;
+  }
+  

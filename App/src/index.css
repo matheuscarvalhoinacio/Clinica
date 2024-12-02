@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'fonte made tommy';
+  max-width: 100%;
+}
+@font-face {
+  font-family: 'Made Tommy';
+  src: url('caminho/para/made-tommy-regular.ttf') format('truetype'); /* Altere o caminho conforme necessário */
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{
+  background-color: #fff;
+  font-family: 'Made Tommy', sans-serif;
+  max-height: 100vh;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+  overflow-x: hidden;
+}
